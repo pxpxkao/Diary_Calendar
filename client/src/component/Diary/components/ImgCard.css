@@ -1,0 +1,33 @@
+/* ImgCard */
+.imgcard-figure{ 
+    /*position: relative;*/
+    vertical-align: bottom;
+    display: flex;
+    width: 280px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    perspective: 1800px;
+    box-shadow: 5px 5px 16px -1px rgba(0,0,0,0.19);
+    background: #fff;
+    cursor: pointer;
+    
+}
+.imgcard-title{
+    display: flex;
+    font-size: 16px; 
+    color: #a7a2a0;
+    margin: 5px 0 0 0;
+    vertical-align: bottom;
+    font-family: 'Open Sans Condensed'
+}
+.imgcard-front {
+    vertical-align: middle;
+    backface-visibility: hidden;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+	z-index: 2;
+	transform: rotateY(0deg);
+}

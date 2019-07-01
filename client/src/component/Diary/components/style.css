@@ -1,0 +1,58 @@
+.txt{
+    font-family: 'Open Sans Condensed';
+    max-width:40%;
+    /*
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    */
+}
+.pic{
+    /*transform: scale(1.0, 1.0);
+    position:absolute;
+    z-index: -1;
+    position: relative;
+    /*transform:translate(50,70);*/
+    position: static;
+}
+.icon{   
+    margin-right:10px;
+}
+.icon:hover{
+    width:25px;
+}
+.txtCard{
+    width:300px;
+
+}
+.url{
+    position: relative;
+    background-color:rgba(255, 192, 203, 0);
+    border-color:rgb(46, 13, 233);
+    border-width:1px;
+    transform:translateY(-10);
+    color:rgba(145, 134, 134, 0.74);
+}
+
+.setImageBut{
+    margin:3px;
+}
+.setImageButDel{
+    float:right;
+    margin:3px;
+
+}
+.sticker{
+    margin:0px 0px 15px 10px;
+    max-width: 50px;
+    max-height: 50px;
+}
+.sticker:hover{
+    max-width: 55px;
+    max-height: 55px;
+}
+.stickerCho{
+    margin:0px 0px 15px 10px;
+    max-width: 70px;
+    max-height: 70px;
+}
