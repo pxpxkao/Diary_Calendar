@@ -278,7 +278,7 @@ class Text extends React.Component {
   }
   render() {
     const { isDragging } = this.state;
-    console.log("txtchild", this.props.children.props.children)
+    // console.log("txtchild", this.props.children.props.children)
     return (
       <div className="txtCard">
         <TXT
@@ -306,11 +306,12 @@ class Text extends React.Component {
               <FormGroup>
                 <Label for="body">Edit Your Comment</Label>
                 <Input
-                  type="text"
+                  type="textarea"
                   name="body"
                   id="body"
                   value={this.state.body}
                   className='mb-3'
+                  style={{ height: "200px" }}
                   placeholder="New Comment"
                   onChange={this.onChange}
                 />
