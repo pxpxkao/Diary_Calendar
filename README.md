@@ -2,7 +2,7 @@
 
 ## 一句話描述這個專題
 一個行事曆以及手帳日記兼具的可愛網頁  
-Deploy Page : https://diary-calendar-app.herokuapp.com/ <br>
+Deploy Page : https://glacial-garden-86522.herokuapp.com/ <br>
 Demo Video : https://youtu.be/NUjAfht8ofQ
 
 
@@ -12,7 +12,7 @@ Demo Video : https://youtu.be/NUjAfht8ofQ
 Run the following command to setup the project:  
 
 ```
-$ clone git https://github.com/chiajoukuo/Diary_Calendar.git
+$ clone git https://github.com/pxpxkao/Diary_Calendar.git
 $ cd Diary_Calendar
 $ npm install   
 $ npm run client-install
